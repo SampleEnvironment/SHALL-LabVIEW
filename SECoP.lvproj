@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="15008000">
+<Project Type="Project" LVVersion="23008000">
 	<Property Name="SMProvider.SMVersion" Type="Int">201310</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="IOScan.Faults" Type="Str"></Property>
@@ -31,7 +31,7 @@
 		<Item Name="LakeShore350empty.vi" Type="VI" URL="../LakeShore350empty.vi"/>
 		<Item Name="LakeShore350.vi" Type="VI" URL="../LakeShore350.vi"/>
 		<Item Name="LakeShore350Full.vi" Type="VI" URL="../LakeShore350Full.vi"/>
-		<Item Name="Lake Shore 350.lvlib" Type="Library" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2016/instr.lib/Lake Shore 350/Lake Shore 350.lvlib"/>
+		<Item Name="Lake Shore 350.lvlib" Type="Library" URL="../Program Files (x86)/National Instruments/LabVIEW 2016/instr.lib/Lake Shore 350/Lake Shore 350.lvlib"/>
 		<Item Name="parametertype.ctl" Type="VI" URL="../parametertype.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
@@ -39,6 +39,14 @@
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="subTimeDelay.vi" Type="VI" URL="/&lt;vilib&gt;/express/express execution control/TimeDelayBlock.llb/subTimeDelay.vi"/>
 			</Item>
+			<Item Name="Initialize.vi" Type="VI" URL="/../../Program Files (x86)/National Instruments/LabVIEW 2016/instr.lib/Lake Shore 350/Public/Initialize.vi"/>
+			<Item Name="Close.vi" Type="VI" URL="/../../Program Files (x86)/National Instruments/LabVIEW 2016/instr.lib/Lake Shore 350/Public/Close.vi"/>
+			<Item Name="Sensor Data.vi" Type="VI" URL="/../../Program Files (x86)/National Instruments/LabVIEW 2016/instr.lib/Lake Shore 350/Public/Data/Sensor Data.vi"/>
+			<Item Name="Sensor Data (Single Reading).vi" Type="VI" URL="/../../Program Files (x86)/National Instruments/LabVIEW 2016/instr.lib/Lake Shore 350/Public/Data/Sensor Data (Single Reading).vi"/>
+			<Item Name="Setpoint Status.vi" Type="VI" URL="/../../Program Files (x86)/National Instruments/LabVIEW 2016/instr.lib/Lake Shore 350/Public/Action-Status/Setpoint Status.vi"/>
+			<Item Name="PID Status.vi" Type="VI" URL="/../../Program Files (x86)/National Instruments/LabVIEW 2016/instr.lib/Lake Shore 350/Public/Action-Status/PID Status.vi"/>
+			<Item Name="Configure PID.vi" Type="VI" URL="/../../Program Files (x86)/National Instruments/LabVIEW 2016/instr.lib/Lake Shore 350/Public/Configure/Configure PID.vi"/>
+			<Item Name="Configure Setpoint and Ramp.vi" Type="VI" URL="/../../Program Files (x86)/National Instruments/LabVIEW 2016/instr.lib/Lake Shore 350/Public/Configure/Configure Setpoint and Ramp.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="SECoP" Type="Source Distribution">
