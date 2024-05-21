@@ -33,6 +33,7 @@
 		<Item Name="LakeShore350Full.vi" Type="VI" URL="../LakeShore350Full.vi"/>
 		<Item Name="Lake Shore 350.lvlib" Type="Library" URL="../Program Files (x86)/National Instruments/LabVIEW 2016/instr.lib/Lake Shore 350/Lake Shore 350.lvlib"/>
 		<Item Name="parametertype.ctl" Type="VI" URL="../parametertype.ctl"/>
+		<Item Name="run_parallel.vi" Type="VI" URL="../run_parallel.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
