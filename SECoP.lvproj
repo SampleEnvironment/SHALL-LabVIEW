@@ -26,6 +26,7 @@
 			<Item Name="dcy05.vi" Type="VI" URL="../dcy05.vi"/>
 			<Item Name="dcy05_multimodule.vi" Type="VI" URL="../dcy05_multimodule.vi"/>
 			<Item Name="dcy06.vi" Type="VI" URL="../dcy06.vi"/>
+			<Item Name="dcy07.vi" Type="VI" URL="../dcy07.vi"/>
 			<Item Name="run_parallel.vi" Type="VI" URL="../run_parallel.vi"/>
 		</Item>
 		<Item Name="SECoP.lvlib" Type="Library" URL="../SECoP.lvlib"/>
