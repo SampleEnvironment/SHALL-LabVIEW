@@ -6,7 +6,7 @@ If you are interested in learing more about the **SECoP** Protocol please refer 
 The VIs in this project have been built using LabVIEW 2023. The [Releases](https://github.com/SampleEnvironment/SHALL-LabVIEW/releases/latest) are also available for LabVIEW2019 in the Release Assets.
 
 ## A. Installation
-
+[Starting the application](#starting-the-application)
 ### 1. Getting the Source  
 You can either clone the project directly, which will give you the latest version of the project, or select a [Release](https://github.com/SampleEnvironment/SHALL-LabVIEW/releases), where you can also download a version that has been exported for LabVIEW 2019.
 
@@ -62,3 +62,11 @@ Main Sections marked for `random-demo/dcy03.vi`:
 ![overview drawio](https://github.com/user-attachments/assets/ae7a08ca-8079-4a76-927e-156a9b8e7ccc)
 
 ## C. Writing your First SEC Node 
+
+
+
+# Starting the application
+
+
+
+
