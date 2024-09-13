@@ -62,3 +62,18 @@ Main Sections marked for `random-demo/dcy03.vi`:
 ![overview drawio](https://github.com/user-attachments/assets/ae7a08ca-8079-4a76-927e-156a9b8e7ccc)
 
 ## C. Writing your First SEC Node 
+
+
+## Title
+
+### Place 1
+
+Hello, this is some text to fill in this, [here](#place-2), is a link to the second place.
+
+### Place 2
+
+Place one has the fun times of linking here, but I can also link back [here](#place-1).
+
+### Place's 3: other example
+
+Place one has the fun times of linking here, but I can also link back [here](#places-3-other-example).
