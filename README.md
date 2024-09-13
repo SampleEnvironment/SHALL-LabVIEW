@@ -5,7 +5,7 @@ The package allows the creation of SEC nodes in LabVIEW. It's interface is desig
 **Note:**
 The VIs in this project have been built using LabVIEW 2023. The [Releases](https://github.com/SampleEnvironment/SHALL-LabVIEW/releases/latest) are also available for LabVIEW2019 in the Release Assets.
 
-## Installation
+## A. Installation
 
 ### 1. Getting the Source  
 You can either clone the project directly, which will give you the latest version of the project, or select a [Release](https://github.com/SampleEnvironment/SHALL-LabVIEW/releases), where you can also download a version that has been exported for LabVIEW 2019.
@@ -47,3 +47,8 @@ or
 ```
 D:\shall-repos\shall-labview\32bit
 ```
+
+
+## B. General Overview
+
+## C. Writing your First SEC Node 
