@@ -63,6 +63,9 @@ Main Sections marked for `random-demo/dcy03.vi`:
 
 ## C. Writing your First SEC Node 
 
+  1. **Initialisation**:
+  2. **Main Loop**: 
+  3. **Exit**:
 
 
 
@@ -79,5 +82,16 @@ Setting a very small pollinterval can severely reduce the responsiveness of a SE
 
 
 ## Context ID
+The `Context_ID` enables the independent creation and deletion of SEC nodes in seperate Vis. 
+
+Since the SHALL library is architected in a way, where new elements are always added to the last added element of a SEC node, concurrent instantiation will lead to concurrrency problems. These problems are avoided by seperating instantiation contexts by their `Context_ID`. This means that within a single context, nodes need to be constructed serially, but entire contexts can be started in parallel without issues. In case of the SHALL-LabVIEW integration we have a `Context_ID` for each **Vi**.
+
+When the `Exit` sub Vi is called, only the nodes that were instaniated within the context are stopped and deleted.  
+
+**Note**:
+- `Context_ID` must be globally unique
+- If there is only a single node whinin a context you can set: `Context_ID == node_id`  
+
+
 
 
