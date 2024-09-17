@@ -62,10 +62,10 @@ Main Sections marked for `random-demo/dcy03.vi`:
 ![overview drawio](https://github.com/user-attachments/assets/ae7a08ca-8079-4a76-927e-156a9b8e7ccc)
 
 ## C. Writing your First SEC Node 
-
-  1. **Initialisation**:
-  2. **Main Loop**: 
-  3. **Exit**:
+Please refer to the Wiki Pages for the tutorial:
+  1. **[Initialisation](https://github.com/SampleEnvironment/SHALL-LabVIEW/wiki/1.-Initialisation)**
+  2. **[Main Loop](https://github.com/SampleEnvironment/SHALL-LabVIEW/wiki/2.-Main-Loop)**
+  3. **[Exit](https://github.com/SampleEnvironment/SHALL-LabVIEW/wiki/3.-Exit)**
 
 
 
