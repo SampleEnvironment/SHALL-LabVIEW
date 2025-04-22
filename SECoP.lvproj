@@ -20,17 +20,19 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="random-demo" Type="Folder">
+		<Item Name="Demo Vis" Type="Folder">
 			<Item Name="dcy03.vi" Type="VI" URL="../dcy03.vi"/>
 			<Item Name="dcy04.vi" Type="VI" URL="../dcy04.vi"/>
 			<Item Name="dcy05.vi" Type="VI" URL="../dcy05.vi"/>
 			<Item Name="dcy05_multimodule.vi" Type="VI" URL="../dcy05_multimodule.vi"/>
 			<Item Name="dcy06.vi" Type="VI" URL="../dcy06.vi"/>
-			<Item Name="dcy07.vi" Type="VI" URL="../dcy07.vi"/>
 			<Item Name="run_parallel.vi" Type="VI" URL="../run_parallel.vi"/>
+			<Item Name="Tutorial.vi" Type="VI" URL="../Tutorial.vi"/>
 		</Item>
 		<Item Name="SECoP.lvlib" Type="Library" URL="../SECoP.lvlib"/>
 		<Item Name="parametertype.ctl" Type="VI" URL="../parametertype.ctl"/>
+		<Item Name="tut_testing.vi" Type="VI" URL="../tut_testing.vi"/>
+		<Item Name="cryo_comm.vi" Type="VI" URL="../cryo_comm.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
